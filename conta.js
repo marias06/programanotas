@@ -19,8 +19,8 @@ form.addEventListener("submit", (e) =>{       //"escuta" evento submit do form
 
     resposta = resposta + descricao + " -R$: " + valor.toFixed(2) + "\n"
 
-    resp1.innerText = `${resposta}-------------------------------------------------`
-    resp2.innerText = `${numContas} conta(s) - Total R$: ${valTotal.toFixed(2)}`
+    resp1.innerText = `${resposta}-------------------------------------`
+    resp2.innerText = `${numContas} Conta(s) - Total R$: ${valTotal.toFixed(2)}`
 
     form.inDescrição.value = ""                   //limpa campos do form
     form.inValor.value = ""
